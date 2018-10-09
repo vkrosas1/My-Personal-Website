@@ -104,7 +104,9 @@ span b {
 
 }
 
-/* ---- short blurb of my info is here ----- */
+
+/* ---- everything having to do with my personal info including resume is down here! ---- */
+
 #my-info { 
   padding-top: 50px;
 
@@ -118,3 +120,10 @@ span b {
   from {opacity: 0} 
   to {opacity: 1}
 }
+
+
+
+
+/*--- everything having to do with the slideshow is down here ----*/
+* {box-sizing:border-box}
+
