@@ -68,6 +68,11 @@ span b {
   transform: translateY(-50%); 
 }
 
+/*#option1.selected { 
+  color: #D1C926;
+ }*/
+
+
 #option2{ 
   float: left;
   width: 15%;
