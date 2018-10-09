@@ -1,0 +1,120 @@
+html { 
+font-family: 'Niramit', sans-serif;
+background-color: #EAE5E5;
+ }
+
+h1, p{ 
+  text-align: center;
+ }
+
+a.navbar-name { 
+  color: black;
+  text-decoration: none;
+ }
+
+
+a.navbar-tab {
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    font-size:20px; 
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+
+
+a:hover { 
+  color:#60D0D3;
+ }
+
+/*This is for the topmost bar*/
+.navbar-row { 
+  height: 150px;
+  padding-right:40px;
+  
+  
+}
+
+/*This is for the my name and occupation part of the website*/
+span {
+  font-size: 50px;
+  color: black;
+  text-decoration: none; 
+}
+
+span b {
+  font-size: 50%;
+}
+
+#name { 
+  padding-left: 120px;
+  float: left; 
+  width: 40%;
+  font-size: 40px; 
+
+ }
+
+
+#option1{ 
+  float: left;
+  width: 15%;
+/*  background-color: #ff00008a;
+*/
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+#option2{ 
+  float: left;
+  width: 15%;
+/*  background-color: orange; 
+*/
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+
+#option3{ 
+  float: left;
+  width: 15%;
+/*  background-color: #8000808f;
+*/
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+#option4{ 
+  float: left;
+  width: 15%;
+/*  background-color: #8000808f;
+*/
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+/* ---- short blurb of my info is here ----- */
+#my-info { 
+  padding-top: 50px;
+
+
+  animation-name: fadeIn;
+
+  animation-duration: 5.0s;
+ }
+
+ @keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}

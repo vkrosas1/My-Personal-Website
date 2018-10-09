@@ -1,10 +1,15 @@
 html { 
-font-family: 'Montserrat', sans-serif;
+font-family: 'Niramit', sans-serif;
 background-color: #EAE5E5;
  }
 
 h1, p{ 
   text-align: center;
+ }
+
+a.navbar-name { 
+  color: black;
+  text-decoration: none;
  }
 
 
@@ -35,6 +40,8 @@ a:hover {
 /*This is for the my name and occupation part of the website*/
 span {
   font-size: 50px;
+  color: black;
+  text-decoration: none; 
 }
 
 span b {
@@ -100,7 +107,6 @@ span b {
 
 /* ---- everything having to do with my personal info including resume is down here! ---- */
 
-
 #my-info { 
   padding-top: 50px;
 
@@ -115,10 +121,7 @@ span b {
   to {opacity: 1}
 }
 
-/*#my-info.h1 { 
-  animatiion: fadein;
-  animation-duration: 1.5s;
- }*/
+
 
 
 /*--- everything having to do with the slideshow is down here ----*/
